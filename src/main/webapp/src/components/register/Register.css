@@ -1,0 +1,29 @@
+.registerContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color: chocolate;
+    height: 50vh;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: small;
+
+}
+
+.loginItem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 13px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

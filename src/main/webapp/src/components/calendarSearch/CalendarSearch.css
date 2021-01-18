@@ -1,0 +1,16 @@
+.inputSearchContainer{
+    font-family: "Lato";
+    color: #514948;
+    padding: 10px;
+}
+
+.inputContainer{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+.input{
+    border:none;
+    border-radius: 10px;
+}
+input:focus {outline:none!important;}

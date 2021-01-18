@@ -1,0 +1,46 @@
+.backgroundContact{
+    background-image:url("../assets/appImages/contactus.jpg");
+    width: 100%;
+    height: 400px;
+    flex: 1;
+}
+
+.contactTitle{
+    padding-left: 200px;
+    padding-top: 140px;
+    color: white;
+    font-size: 46px;
+
+}
+.contactInfo{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactInfoRow{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.iconContact{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.mail{
+    font-size: 25px;
+    color: chocolate;
+}
+.footerContainer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

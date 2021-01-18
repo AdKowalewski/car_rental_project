@@ -1,0 +1,35 @@
+.icon{
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: chocolate;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footerItem{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+
+}
+.iconsContainer{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.width100{
+    width: 100%;
+}
+

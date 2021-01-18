@@ -1,0 +1,42 @@
+.carsList{
+    /*width: 70%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.containerScreen{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 1000px;
+    width: 100%;
+}
+
+.containerWidth{
+    margin-top: 50px;
+    width: 70%;
+}
+
+.title{
+    color: chocolate;
+    font-size: 30px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.filterName{
+    flex: 1;
+}
+
+.filters{
+    margin-bottom: 50px;
+}
+
+.filter{
+    height: 28px;
+    width: 28px;
+}

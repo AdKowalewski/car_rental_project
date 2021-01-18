@@ -1,0 +1,19 @@
+.containerSearchBar{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.button{
+    margin-left: 5px;
+    height: 30px;
+    margin-top: 17px;
+    width:  70px;
+    border:solid 2px chocolate !important;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: chocolate;
+    color: azure;
+}
