@@ -11,9 +11,9 @@ const Footer  = ()=> {
     return(
         <div className={"width100"}>
         <div className={"iconsContainer"}>
-            <a href={"https://www.facebook.com/Adler-Tank-Rentals-131357620878270"}><img className={"icon"} src={facebook} alt={"branches"}/></a>
-            <a href={"https://www.instagram.com/tank_the_bully_official/"}><img className={"icon"} src={instagram} alt={"branches"}/></a>
-            <a href={" https://twitter.com/therealtank"}> <img className={"icon"} src={twitter} alt={"branches"}/></a>
+            <img className={"icon"} src={facebook} alt={"branches"}/>
+            <img className={"icon"} src={instagram} alt={"branches"}/>
+            <img className={"icon"} src={twitter} alt={"branches"}/>
 
         </div>
 

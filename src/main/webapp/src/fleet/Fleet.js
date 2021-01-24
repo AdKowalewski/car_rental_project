@@ -22,7 +22,7 @@ const Fleet=()=> {
 
     useEffect( ()=>{
         async function getAllCars (){
-            await fetch("http://localhost:8080/cars")
+            await fetch("http://localhost:8080/api/cars")
                 .then(res => res.json())
                 .then(
                     (result) => {

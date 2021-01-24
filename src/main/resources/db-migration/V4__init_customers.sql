@@ -1,6 +1,6 @@
 INSERT INTO customer (first_name, last_name, login, email, password, user_type, id_document_enum, document_num, address_id, version)
 VALUES
-('Arnold', 'Schwarzenegger', 'arni', 'ddweff', 'dfsfds', 'CUSTOMER', 'ID_CARD', '5235', 6, 1),
+('Arnold', 'Schwarzenegger', 'arni', 'ddweff', '$2a$10$oIMSl4jO2oAzJ.nNgS6U4OVmz0Lsjf2r.8NixJr2Vrh/aZXLqbjwa', 'CUSTOMER', 'ID_CARD', '5235', 6, 1),
 ('John', 'Rambo', 'rambo', 'sfssfs', 'sssdfsf', 'CUSTOMER', 'PASSPORT', '453453', 7, 1),
 ('Chuck', 'Norris', 'chuck', 'fsfsdfd', 'dgsgg', 'CUSTOMER', 'PASSPORT', '63463', 8, 1),
 ('Jean-Claude', 'WamDam', 'jawamdam', 'fsdfs', 'efwe', 'CUSTOMER', 'ID_CARD', '3467', 9, 1),
