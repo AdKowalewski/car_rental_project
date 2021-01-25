@@ -33,7 +33,7 @@ class Login extends React.Component {
             password: this.state.password
         };
 
-        axios.post('/login', user_object).then(res => {
+        axios.post('api/login', user_object).then(res => {
             localStorage.setItem("authorization", res.data.token);
             window.location = "/"
         }).catch(function (e) {
